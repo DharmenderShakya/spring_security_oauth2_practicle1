@@ -67,6 +67,15 @@ public class AuthController {
 
 	}
 	
+	@PostMapping("/createUser")
+	public String login(@RequestBody Users request) {
+
+		userRepository.saveUser(request);
+		
+		return "User Successfully created";
+
+	}
+	
 	@PutMapping("/unlock/{username}")
     @PreAuthorize("hasRole('SUPER_ADMIN')")
     public String unlockAccount(@PathVariable String username) {
@@ -87,14 +96,22 @@ public class AuthController {
 	    return "TEST WORKING";
 	}
 	
-	@GetMapping("/user")  
-	public String user(@AuthenticationPrincipal OAuth2User principal, Model model) {  
-	    model.addAttribute("name", principal.getAttribute("name"));  
-	    model.addAttribute("login", principal.getAttribute("login"));  
-	    model.addAttribute("id", principal.getAttribute("id"));  
-	    model.addAttribute("email", principal.getAttribute("email"));  
-	    return "user";  
+	@GetMapping("/user")
+	public String user(@AuthenticationPrincipal OAuth2User principal) {
+
+	    if (principal == null) {
+	        return "User not authenticated";
+	    }
+
+	    return "Login Successful\n" +
+	           "Name: " + principal.getAttribute("name") + "\n" +
+	           "Email: " + principal.getAttribute("email");
 	}
+	
+    @GetMapping("/")
+    public String home() {
+        return "Home Page";
+    }
 
 	
 }
