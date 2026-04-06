@@ -68,7 +68,7 @@ public class SecurityConfig {
             .oauth2Login(oauth -> oauth
                     .loginPage("/") // custom login page (optional)
                     .userInfoEndpoint(userInfo -> userInfo
-                            .userService(socialAppService) // 🔥 your service
+                            .userService(socialAppService) //  your service
                     )
                     .defaultSuccessUrl("/user", true)
             )
