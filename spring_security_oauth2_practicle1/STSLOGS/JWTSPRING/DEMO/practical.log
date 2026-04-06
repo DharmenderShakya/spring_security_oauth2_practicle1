@@ -1,0 +1,312 @@
+2026-04-06T11:50:38.352+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : Starting SpringSecurityOauth2Practicle1Application using Java 17.0.11 with PID 9952 (D:\LMS\spring_security_oauth2_practicle1\target\classes started by dharmender in D:\LMS\spring_security_oauth2_practicle1)
+2026-04-06T11:50:38.354+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : No active profile set, falling back to 1 default profile: "default"
+2026-04-06T11:50:39.476+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7878 (https)
+2026-04-06T11:50:39.492+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-06T11:50:39.493+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-06T11:50:39.539+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-06T11:50:39.540+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1145 ms
+2026-04-06T11:50:39.663+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-04-06T11:50:39.664+05:30  WARN 9952 --- [spring_security_oauth2_practicle1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-04-06T11:50:40.734+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-7878], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [Set directly - location unknown] using alias [myapp] with trust store [null]
+2026-04-06T11:50:40.751+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 7878 (https) with context path '/'
+2026-04-06T11:50:40.764+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : Started SpringSecurityOauth2Practicle1Application in 2.795 seconds (process running for 3.527)
+2026-04-06T11:57:45.677+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-04-06T11:57:45.685+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [RMI TCP Connection(12)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-06T11:57:45.772+05:30  INFO 9952 --- [spring_security_oauth2_practicle1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-06T12:43:13.400+05:30  INFO 26064 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : Starting SpringSecurityOauth2Practicle1Application using Java 17.0.11 with PID 26064 (D:\LMS\spring_security_oauth2_practicle1\target\classes started by dharmender in D:\LMS\spring_security_oauth2_practicle1)
+2026-04-06T12:43:13.403+05:30  INFO 26064 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : No active profile set, falling back to 1 default profile: "default"
+2026-04-06T12:43:14.492+05:30  INFO 26064 --- [spring_security_oauth2_practicle1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7878 (https)
+2026-04-06T12:43:14.507+05:30  INFO 26064 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-06T12:43:14.507+05:30  INFO 26064 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-06T12:43:14.559+05:30  INFO 26064 --- [spring_security_oauth2_practicle1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-06T12:43:14.561+05:30  INFO 26064 --- [spring_security_oauth2_practicle1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1110 ms
+2026-04-06T12:43:14.680+05:30  WARN 26064 --- [spring_security_oauth2_practicle1] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+2026-04-06T12:43:14.683+05:30  INFO 26064 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-06T12:43:14.751+05:30  INFO 26064 --- [spring_security_oauth2_practicle1] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-06T12:43:14.763+05:30 ERROR 26064 --- [spring_security_oauth2_practicle1] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:991) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.13.jar:3.5.13]
+	at com.Spring_Security_oauth2_practicle1.SpringSecurityOauth2Practicle1Application.main(SpringSecurityOauth2Practicle1Application.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.17.jar:6.2.17]
+	... 21 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:210) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.17.jar:6.2.17]
+	... 34 common frames omitted
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.logging.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.logging.log4j.Logger are in unnamed module of loader 'app')
+	at com.Spring_Security_oauth2_practicle1.configuration.SocialAppService.<clinit>(SocialAppService.java:29) ~[classes/:na]
+	... 42 common frames omitted
+
+2026-04-06T12:44:38.967+05:30  INFO 28568 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : Starting SpringSecurityOauth2Practicle1Application using Java 17.0.11 with PID 28568 (D:\LMS\spring_security_oauth2_practicle1\target\classes started by dharmender in D:\LMS\spring_security_oauth2_practicle1)
+2026-04-06T12:44:38.970+05:30  INFO 28568 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : No active profile set, falling back to 1 default profile: "default"
+2026-04-06T12:44:40.124+05:30  INFO 28568 --- [spring_security_oauth2_practicle1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7878 (https)
+2026-04-06T12:44:40.138+05:30  INFO 28568 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-06T12:44:40.139+05:30  INFO 28568 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-06T12:44:40.185+05:30  INFO 28568 --- [spring_security_oauth2_practicle1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-06T12:44:40.185+05:30  INFO 28568 --- [spring_security_oauth2_practicle1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1168 ms
+2026-04-06T12:44:40.295+05:30  WARN 28568 --- [spring_security_oauth2_practicle1] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+2026-04-06T12:44:40.299+05:30  INFO 28568 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-06T12:44:40.391+05:30  INFO 28568 --- [spring_security_oauth2_practicle1] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-06T12:44:40.406+05:30 ERROR 28568 --- [spring_security_oauth2_practicle1] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:991) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.13.jar:3.5.13]
+	at com.Spring_Security_oauth2_practicle1.SpringSecurityOauth2Practicle1Application.main(SpringSecurityOauth2Practicle1Application.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.17.jar:6.2.17]
+	... 21 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:210) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.17.jar:6.2.17]
+	... 34 common frames omitted
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.logging.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.logging.log4j.Logger are in unnamed module of loader 'app')
+	at com.Spring_Security_oauth2_practicle1.configuration.SocialAppService.<clinit>(SocialAppService.java:30) ~[classes/:na]
+	... 42 common frames omitted
+
+2026-04-06T12:45:18.621+05:30  INFO 11528 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : Starting SpringSecurityOauth2Practicle1Application using Java 17.0.11 with PID 11528 (D:\LMS\spring_security_oauth2_practicle1\target\classes started by dharmender in D:\LMS\spring_security_oauth2_practicle1)
+2026-04-06T12:45:18.623+05:30  INFO 11528 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : No active profile set, falling back to 1 default profile: "default"
+2026-04-06T12:45:19.823+05:30  INFO 11528 --- [spring_security_oauth2_practicle1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7878 (https)
+2026-04-06T12:45:19.846+05:30  INFO 11528 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-06T12:45:19.847+05:30  INFO 11528 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-06T12:45:19.896+05:30  INFO 11528 --- [spring_security_oauth2_practicle1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-06T12:45:19.896+05:30  INFO 11528 --- [spring_security_oauth2_practicle1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1234 ms
+2026-04-06T12:45:19.995+05:30  WARN 11528 --- [spring_security_oauth2_practicle1] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+2026-04-06T12:45:19.999+05:30  INFO 11528 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-06T12:45:20.070+05:30  INFO 11528 --- [spring_security_oauth2_practicle1] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-06T12:45:20.085+05:30 ERROR 11528 --- [spring_security_oauth2_practicle1] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:991) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.13.jar:3.5.13]
+	at com.Spring_Security_oauth2_practicle1.SpringSecurityOauth2Practicle1Application.main(SpringSecurityOauth2Practicle1Application.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.17.jar:6.2.17]
+	... 21 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:210) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.17.jar:6.2.17]
+	... 34 common frames omitted
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.logging.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.logging.log4j.Logger are in unnamed module of loader 'app')
+	at com.Spring_Security_oauth2_practicle1.configuration.SocialAppService.<clinit>(SocialAppService.java:30) ~[classes/:na]
+	... 42 common frames omitted
+
+2026-04-06T12:47:57.262+05:30  INFO 18112 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : Starting SpringSecurityOauth2Practicle1Application using Java 17.0.11 with PID 18112 (D:\LMS\spring_security_oauth2_practicle1\target\classes started by dharmender in D:\LMS\spring_security_oauth2_practicle1)
+2026-04-06T12:47:57.264+05:30  INFO 18112 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : No active profile set, falling back to 1 default profile: "default"
+2026-04-06T12:47:58.328+05:30  INFO 18112 --- [spring_security_oauth2_practicle1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7878 (https)
+2026-04-06T12:47:58.342+05:30  INFO 18112 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-06T12:47:58.342+05:30  INFO 18112 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-06T12:47:58.393+05:30  INFO 18112 --- [spring_security_oauth2_practicle1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-06T12:47:58.393+05:30  INFO 18112 --- [spring_security_oauth2_practicle1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1086 ms
+2026-04-06T12:47:58.495+05:30  WARN 18112 --- [spring_security_oauth2_practicle1] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'socialAppService': Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+2026-04-06T12:47:58.497+05:30  INFO 18112 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-06T12:47:58.565+05:30  INFO 18112 --- [spring_security_oauth2_practicle1] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-06T12:47:58.578+05:30 ERROR 18112 --- [spring_security_oauth2_practicle1] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'socialAppService': Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:991) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.13.jar:3.5.13]
+	at com.Spring_Security_oauth2_practicle1.SpringSecurityOauth2Practicle1Application.main(SpringSecurityOauth2Practicle1Application.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'socialAppService' defined in file [D:\LMS\spring_security_oauth2_practicle1\target\classes\com\Spring_Security_oauth2_practicle1\configuration\SocialAppService.class]: null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.2.17.jar:6.2.17]
+	... 22 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:210) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.17.jar:6.2.17]
+	... 34 common frames omitted
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.logging.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.logging.log4j.Logger are in unnamed module of loader 'app')
+	at com.Spring_Security_oauth2_practicle1.configuration.SocialAppService.<clinit>(SocialAppService.java:30) ~[classes/:na]
+	... 42 common frames omitted
+
+2026-04-06T12:51:01.888+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : Starting SpringSecurityOauth2Practicle1Application using Java 17.0.11 with PID 980 (D:\LMS\spring_security_oauth2_practicle1\target\classes started by dharmender in D:\LMS\spring_security_oauth2_practicle1)
+2026-04-06T12:51:01.890+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : No active profile set, falling back to 1 default profile: "default"
+2026-04-06T12:51:02.990+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7878 (https)
+2026-04-06T12:51:03.011+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-06T12:51:03.011+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-06T12:51:03.072+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-06T12:51:03.073+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1138 ms
+2026-04-06T12:51:03.217+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-04-06T12:51:03.218+05:30  WARN 980 --- [spring_security_oauth2_practicle1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-04-06T12:51:03.942+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-7878], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [Set directly - location unknown] using alias [myapp] with trust store [null]
+2026-04-06T12:51:03.969+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 7878 (https) with context path '/'
+2026-04-06T12:51:03.979+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [main] pringSecurityOauth2Practicle1Application : Started SpringSecurityOauth2Practicle1Application in 2.553 seconds (process running for 3.207)
+2026-04-06T12:52:36.019+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-06T12:52:36.020+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-06T12:52:36.022+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-04-06T12:52:36.165+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-1] c.S.configuration.LoggingFilter          : ➡️ Incoming Request: GET /
+2026-04-06T12:52:36.231+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-1] c.S.configuration.LoggingFilter          : ⬅️ Response: GET / | Status: 404 | Time: 66 ms
+2026-04-06T12:52:36.462+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-9] c.S.configuration.LoggingFilter          : ➡️ Incoming Request: GET /favicon.ico
+2026-04-06T12:52:36.468+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-9] c.S.configuration.LoggingFilter          : ⬅️ Response: GET /favicon.ico | Status: 401 | Time: 6 ms
+2026-04-06T12:59:38.155+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-3] c.S.configuration.LoggingFilter          : ➡️ Incoming Request: GET /
+2026-04-06T12:59:38.159+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-3] c.S.configuration.LoggingFilter          : ⬅️ Response: GET / | Status: 404 | Time: 4 ms
+2026-04-06T12:59:38.246+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-5] c.S.configuration.LoggingFilter          : ➡️ Incoming Request: GET /favicon.ico
+2026-04-06T12:59:38.248+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-5] c.S.configuration.LoggingFilter          : ⬅️ Response: GET /favicon.ico | Status: 401 | Time: 2 ms
+2026-04-06T12:59:40.815+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-8] c.S.configuration.LoggingFilter          : ➡️ Incoming Request: GET /
+2026-04-06T12:59:40.821+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-8] c.S.configuration.LoggingFilter          : ⬅️ Response: GET / | Status: 404 | Time: 6 ms
+2026-04-06T12:59:40.900+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-7] c.S.configuration.LoggingFilter          : ➡️ Incoming Request: GET /favicon.ico
+2026-04-06T12:59:40.903+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-7] c.S.configuration.LoggingFilter          : ⬅️ Response: GET /favicon.ico | Status: 401 | Time: 3 ms
+2026-04-06T12:59:59.287+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-7] c.S.configuration.LoggingFilter          : ➡️ Incoming Request: GET /
+2026-04-06T12:59:59.290+05:30  INFO 980 --- [spring_security_oauth2_practicle1] [https-jsse-nio-7878-exec-7] c.S.configuration.LoggingFilter          : ⬅️ Response: GET / | Status: 404 | Time: 3 ms
