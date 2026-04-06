@@ -57,7 +57,7 @@ public class SocialAppService implements OAuth2UserService<OAuth2UserRequest, OA
             user.setAccountNonLocked(false);
             user.setFailedAttempts(0);
 
-            new UserCustomRepository(user);
+            userRepository.saveUser(user);
 
             logger.info("New user saved: {}", email);
         }
