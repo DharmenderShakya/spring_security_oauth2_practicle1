@@ -24,10 +24,9 @@ public class UserCustomRepository {
         userStore.put("ravi", createUser("ravi", Role.SUPER_ADMIN));
         userStore.put("roshan", createUser("roshan", Role.MODERATOR));
     }
-
     
-    public UserCustomRepository(Users users) {
-        userStore.put(users.getUsername(), createUser(users,users.getRole()));
+    public void saveUser(Users users) {
+        userStore.put(users.getUsername().toLowerCase(), createUser(users));
     }
     
     public Users createUser(String username, Role role) {
@@ -40,11 +39,11 @@ public class UserCustomRepository {
         return user;
     }
     
-    public Users createUser(Users users, Role role) {
+    public Users createUser(Users users) {
         Users user = new Users();
         user.setUserName(users.getUsername());
         user.setPassword(new BCryptPasswordEncoder().encode(users.getPassword())); // admin123
-        user.setRole(role);
+        user.setRole(users.getRole());
         user.setAccountNonLocked(false);
         user.setFailedAttempts(0);
         return user;
